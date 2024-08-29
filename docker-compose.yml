@@ -7,7 +7,7 @@ services:
       dockerfile: Dockerfile
     container_name: laravel_app
     volumes:
-      - ./src/example-app:/var/www
+      - ./src/:/var/www
     ports:
       - "9000:9000"
     networks:
