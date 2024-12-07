@@ -20,7 +20,7 @@
 
         <p>Data atual : {{\Carbon\Carbon::now()->format('d/m/Y H:i:s')}}</p>
 
-        <p>container id {{echo $containerId = file_get_contents('/etc/hostname')}}</p>
+        <p>container id {{ $containerId = file_get_contents('/etc/hostname')}}</p>
 
     </body>
 </html>
